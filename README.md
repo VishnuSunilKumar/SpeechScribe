@@ -1,4 +1,4 @@
-# 🎙️ SpeechScribe - Voice Notes
+# 🎙️ SpeechScribe 
 
 Turn your speech into text with ease!
 SpeechScribe is a modern, responsive web application that converts your spoken words into written text using the Web Speech API. Perfect for note-taking, transcription, and accessibility purposes.
