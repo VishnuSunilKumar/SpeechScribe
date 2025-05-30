@@ -38,7 +38,7 @@ SpeechScribe is a modern, responsive web application that converts your spoken w
 ### Clone the repository
 
 ```bash 
-git clone https://github.com/VishnuSunilKumar/speechscribe.git
+git clone https://github.com/VishnuSunilKumar/SpeechScribe.git
 cd speechscribe
 ```
 
