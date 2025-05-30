@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeechScribe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta http-equiv="Permissions-Policy" content="microphone=()">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fas fa-microphone-alt"></i>
+                <h1>SpeechScribe</h1>
+            </div>
+            <p class="tagline">Turn your speech into text !!!!</p>
+        </header>
+
+        <main class="app-main">
+            <div class="result-container">
+                <div id="result" contenteditable="true" placeholder="Your transcribed text will appear here..."></div>
+                <div class="result-actions">
+                    <button class="action-btn" id="copyBtn" title="Copy text">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                    <button class="action-btn" id="clearBtn" title="Clear text">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="control-btn pulse">
+                    <i class="fas fa-microphone"></i>
+                    <span>Start Speaking</span>
+                </button>
+                <button id="stopBtn" class="control-btn stop">
+                    <i class="fas fa-stop"></i>
+                    <span>Stop</span>
+                </button>
+            </div>
+
+            <div class="status-indicator">
+                <div id="statusDot" class="status-dot"></div>
+                <span id="statusText">Ready to start</span>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>Done by Vishnu Sunil Kumar</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
